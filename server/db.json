@@ -1,0 +1,154 @@
+{
+  "students": [
+    {
+      "id": 4,
+      "name": "Ana Armas",
+      "age": 15,
+      "address": "Calle del Sol 789"
+    },
+    {
+      "id": 5,
+      "name": "Carlos",
+      "age": 25,
+      "address": "Avenida Principal 567"
+    },
+    {
+      "id": 6,
+      "name": "Isabel",
+      "age": 21,
+      "address": "Calle de la Luna 34"
+    },
+    {
+      "id": 7,
+      "name": "Miguel",
+      "age": 22,
+      "address": "Avenida Norte 901"
+    },
+    {
+      "id": 9,
+      "name": "Javier",
+      "age": 24,
+      "address": "Avenida Sur 345"
+    },
+    {
+      "id": 10,
+      "name": "Paula",
+      "age": 20,
+      "address": "Calle del Bosque 67"
+    },
+    {
+      "id": 11,
+      "name": "Diego",
+      "age": 26,
+      "address": "Avenida Este 789"
+    },
+    {
+      "id": 12,
+      "name": "Carmen",
+      "age": 23,
+      "address": "Calle de la Montaña 56"
+    },
+    {
+      "id": 13,
+      "name": "Juan",
+      "age": 22,
+      "address": "Avenida Oeste 123"
+    },
+    {
+      "id": 14,
+      "name": "Natalia",
+      "age": 21,
+      "address": "Calle de los Ríos 89"
+    },
+    {
+      "id": 15,
+      "name": "Eduardo",
+      "age": 25,
+      "address": "Avenida Central 456"
+    },
+    {
+      "id": 16,
+      "name": "Raquel",
+      "age": 24,
+      "address": "Calle de los Pájaros 34"
+    },
+    {
+      "id": 17,
+      "name": "Pedro",
+      "age": 23,
+      "address": "Avenida de los Ángeles 789"
+    },
+    {
+      "id": 18,
+      "name": "Sara",
+      "age": 22,
+      "address": "Calle de las Estrellas 56"
+    },
+    {
+      "id": 19,
+      "name": "Antonio",
+      "age": 25,
+      "address": "Avenida de las Flores 12"
+    },
+    {
+      "id": 20,
+      "name": "María",
+      "age": 24,
+      "address": "Calle de los Cielos 67"
+    },
+    {
+      "id": 22,
+      "name": "Elena",
+      "age": 23,
+      "address": "Calle de las Nubes 56"
+    },
+    {
+      "id": 23,
+      "name": "Hugo P",
+      "age": 22,
+      "address": "Avenida de los Sueños 123"
+    },
+    {
+      "id": 24,
+      "name": "Cristina",
+      "age": 20,
+      "address": "Calle de los Recuerdos 89"
+    },
+    {
+      "name": "Edwin Lopez",
+      "age": 21,
+      "address": "Surco",
+      "id": 25
+    },
+    {
+      "name": "Edwin Lopez",
+      "age": 20,
+      "address": "Surco",
+      "id": 26
+    },
+    {
+      "age": 45,
+      "name": "dfd",
+      "address": "fdf",
+      "id": 27
+    },
+    {
+      "address": "4545",
+      "age": 54,
+      "name": "452",
+      "id": 28
+    },
+    {
+      "name": "Edwin Lopez",
+      "age": 7,
+      "address": "gf",
+      "id": 29
+    },
+    {
+      "name": "fgfg",
+      "age": 45,
+      "address": "gfg",
+      "id": 30
+    }
+  ]
+}

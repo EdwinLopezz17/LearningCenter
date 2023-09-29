@@ -1,0 +1,25 @@
+
+<h2>{{editMode ? 'Edit': 'Add'}}  Student</h2>
+<div class="form-section">
+  <form (submit)="onSubmit()" #studentForm="ngForm" action="" class="form-row">
+    <mat-form-field>
+      <input matInput name="name" required [(ngModel)]="student.name">
+    </mat-form-field>
+    <mat-form-field>
+      <input type="number" matInput name="Age" required [(ngModel)]="student.age">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput name="Address" required [(ngModel)]="student.address">
+    </mat-form-field>
+
+    <ng-container *ngIf="editMode; else elseTemplate">
+      <button mat-raised-button color="primary">Update</button>
+      <button mat-raised-button color="warn" (click)="onCancel()">Cancel</button>
+    </ng-container>
+
+    <ng-template #elseTemplate>
+      <button mat-raised-button color="primary">Add</button>
+    </ng-template>
+  </form>
+</div>
+
