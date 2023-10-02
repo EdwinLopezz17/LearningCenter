@@ -1,6 +1,5 @@
 import {Component, EventEmitter, Input, Output, ViewChild} from '@angular/core';
 import {Student} from "../../model/Student";
-import {NgFor} from "@angular/common";
 import {NgForm} from "@angular/forms";
 
 @Component({
@@ -11,8 +10,8 @@ import {NgForm} from "@angular/forms";
 export class StudentFormComponent {
 
 
-  @Input() student:Student
-  @Input() editMode = false
+  @Input() student!:Student
+  @Input() editMode:boolean = false
 
   @Output() studentAdded = new EventEmitter<Student>
   @Output() studentUpdated = new EventEmitter<Student>
@@ -20,7 +19,7 @@ export class StudentFormComponent {
 
   @ViewChild('studentForm', {static:false}) studentForm!:NgForm
   constructor() {
-    this.student = {} as Student
+
   }
 
   private resetEditState(){

@@ -33,11 +33,11 @@
     <ng-container matColumnDef="actions">
       <th *matHeaderCellDef mat-header-cell mat-sort-header>Actions</th>
       <td *matCellDef="let element" mat-cell>
-        <a (click)="onEditItem(element)" href="javascript:void(0)">
+        <a (click)="onEditItem(element)">
           <mat-icon>edit</mat-icon>
         </a>
         <a
-          (click)="onDeleteItem(element)" href="javascript:void(0)">
+          (click)="onDeleteItem(element)">
           <mat-icon>delete</mat-icon>
         </a>
       </td>
